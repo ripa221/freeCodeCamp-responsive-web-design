@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quos possimus nulla ex expedita facere porro molestias quia accusamus natus aliquam assumenda, consectetur non enim provident, suscipit, labore nostrum perspiciatis.</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name </label>
+        <input type="text" id="name" placeholder="Enter your name" required> <br>
+        <label for="email" id="email-label">Email </label>
+        <input type="email" id="email" placeholder="Enter your email" required> <br>
+        <label for="number" id="number-label">Age</label>
+        <input type="number" id="number" required placeholder="Enter your age" min="18" max="60"> <br>
+        <label for="dropdown">Gender:</label>
+        <select name="dropdown" id="dropdown">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select> <br>
+        <label for="radio">How do you know us?</label> <br>
+        <input type="radio" name="link" id="radio" value="Facebook">Facebook
+        <input type="radio" name="link" id="radio" value="Instagram">Instagram <br>
+        <label for="interest">Are you Interested?</label> <br>
+        <input type="checkbox" name="interest" id="interest" value="Yes">Yes
+        <input type="checkbox" name="interest" id="interest" value="Not Sure">Not Sure
+        <input type="checkbox" name="interest" id="interest" value="No">No <br>
+        <label for="tarea">Comments </label> <br>
+        <textarea name="tarea" id="tarea" placeholder="Comments here...."></textarea><br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>
