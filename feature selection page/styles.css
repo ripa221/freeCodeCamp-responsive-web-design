@@ -1,0 +1,27 @@
+input[type="checkbox"] {
+    appearance: none;
+    border-width: 4px;
+    border-color: rgb(168, 108, 224);
+    border-style: solid;
+    width: 20px;
+height: 20px;
+}
+
+input[type="checkbox"]:checked {
+    background-color:aqua;
+    color: black;
+    border-color: antiquewhite;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "✓";
+    border-color: rgb(198, 17, 17);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 4, 13);
+    line-height: 20px;
+      position: absolute;
+      font-size: 18px;
+    
+      
+}
