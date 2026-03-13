@@ -1,0 +1,103 @@
+body{
+  height:2000px;
+  font-family:Arial;
+}
+
+/* sticky উদাহরণ */
+.sticky-box{
+  position:sticky;
+  top:0;
+  background:green;
+  color:white;
+  padding:10px;
+}
+
+.spacer{
+  height:800px;
+}
+
+/* absolute উদাহরণ */
+.container{
+  position:relative;
+  border:2px solid black;
+  height:200px;
+  margin:50px;
+}
+
+.absolute-box{
+  position:absolute;
+  top:10px;
+  right:10px;
+  background:red;
+  color:white;
+  padding:10px;
+}
+
+/* fixed উদাহরণ */
+.fixed-box{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:blue;
+  color:white;
+  padding:10px;
+}
+
+.card{
+  position: relative;
+}
+
+.badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.icon{
+  position: relative;
+  font-size:40px;
+}
+
+.badge{
+  position: absolute;
+  top:0;
+  right:0;
+  background:red;
+  color:white;
+  padding:4px 8px;
+  border-radius:50%;
+  font-size:12px;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.box1, .box2, .box3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background-color: red;
+  top: 20px;
+  left: 20px;
+  z-index: 1; /* পেছনে */
+}
+
+.box2 {
+  background-color: green;
+  top: 40px;
+  left: 40px;
+  z-index: 3; /* সামনে */
+}
+
+.box3 {
+  background-color: blue;
+  top: 60px;
+  left: 60px;
+  z-index: 2; /* মাঝখানে */
+}
