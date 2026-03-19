@@ -1,0 +1,26 @@
+.layout {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+}
+
+.header {
+  grid-column: span 3;
+  background: lightcoral;
+}
+
+.main {
+  grid-column: span 1;
+  background: lightblue;
+}
+
+.sidebar {
+
+  background: lightgreen;
+}
+
+.footer {
+  grid-column: span 1;
+  background: lightgray;
+}
