@@ -206,6 +206,7 @@ body {
     left: 127.5px;
     z-index: 1;
     color: #6a6969;
+    line-height: 1;
 
 }
 
@@ -213,7 +214,7 @@ body {
 .shirt div {
 font-weight: normal;
 position: absolute;
-top: 22.5px;
+top: 26.5px;
 left: 12px;
 }
 
@@ -412,8 +413,5 @@ transform: rotate(130deg) scaleX(-1);
     top: 5%;
   }
 
-  .shirt div {
-    top: 23.5px;
-
-  }
+  
 }
