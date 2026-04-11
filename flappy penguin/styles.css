@@ -391,7 +391,7 @@ transform: rotate(130deg) scaleX(-1);
 
 /* Responsive for mobile */
 
-@media (max-width: 600px) {
+@media (max-width: 632px) {
   .penguin {
     transform: scale(0.8);
   }
