@@ -411,4 +411,9 @@ transform: rotate(130deg) scaleX(-1);
     left: 60%;
     top: 5%;
   }
+
+  .shirt div {
+    top: 23.5px;
+
+  }
 }
